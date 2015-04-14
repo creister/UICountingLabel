@@ -20,10 +20,8 @@
 		4C5DC2C016C576E30043204D /* CTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5DC2BE16C576E30043204D /* CTPViewController.xib */; };
 		4C5DC2CB16C577720043204D /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DC2CA16C577720043204D /* UICountingLabel.m */; };
 		9C3D7C4D1ADD8156008E05D3 /* UICountingLabelFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3D7C4C1ADD8156008E05D3 /* UICountingLabelFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C3D7C531ADD8156008E05D3 /* UICountingLabelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3D7C481ADD8156008E05D3 /* UICountingLabelFramework.framework */; };
 		9C3D7C5C1ADD8156008E05D3 /* UICountingLabelFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3D7C5B1ADD8156008E05D3 /* UICountingLabelFrameworkTests.m */; };
 		9C3D7C5F1ADD8156008E05D3 /* UICountingLabelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3D7C481ADD8156008E05D3 /* UICountingLabelFramework.framework */; };
-		9C3D7C601ADD8156008E05D3 /* UICountingLabelFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3D7C481ADD8156008E05D3 /* UICountingLabelFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C3D7C681ADD8168008E05D3 /* UICountingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5DC2C916C577720043204D /* UICountingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,7 +56,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9C3D7C601ADD8156008E05D3 /* UICountingLabelFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3D7C531ADD8156008E05D3 /* UICountingLabelFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +665,7 @@
 				9C3D7C621ADD8156008E05D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C3D7C671ADD8156008E05D3 /* Build configuration list for PBXNativeTarget "UICountingLabelFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +674,7 @@
 				9C3D7C641ADD8156008E05D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
